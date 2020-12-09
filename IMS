@@ -1,0 +1,23 @@
+"""
+	This is a GUI displying the SQL database information into a comprehensive display.
+	The system shows each dealer ship, their stock and if bought or avalible.
+	
+	Using python, Xammp, and mysql work bench
+
+	@uther Javer White
+
+"""
+
+
+from tkkinter import*
+from tkkinter import TK, StringVar, tkk
+import random
+import datetime
+
+root = TK()
+root.geometry("1350x750+0+0") #window dimensions 
+root.title("Inventory System")
+
+
+root.mainloop()
+
