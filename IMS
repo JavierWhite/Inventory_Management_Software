@@ -8,13 +8,11 @@
 
 """
 
-
-from tkkinter import*
-from tkkinter import TK, StringVar, tkk
+from tkinter import *
 import random
 import datetime
 
-root = TK()
+root = Tk()
 root.geometry("1350x750+0+0") #window dimensions 
 root.title("Inventory System")
 
